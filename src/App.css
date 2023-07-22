@@ -36,3 +36,346 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* sidebar */
+.zen-logo1 {
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  vertical-align: middle;
+}
+.secOne {
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 72px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0) scale(1);
+  transform: translateZ(0) scale(1);
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+  z-index: 1000;
+}
+.secOne:hover {
+  width: 200px;
+}
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  list-style: none;
+  /* margin-top: 30px; */
+  margin-left: 0px !important;
+}
+.sidebar-list li {
+  font-size: 12px;
+  font-weight: 500;
+  width: 200px;
+  margin-top: 30px;
+}
+.iconx {
+  padding-right: 30px;
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+}
+.nav-list {
+  margin-left: -15px;
+}
+.sidebar-list li a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+.sidebar-list li a:hover {
+  color: #4b0dba;
+}
+.sidebar-list li a:active {
+  color: #4b0dba;
+}
+.sideContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* batch */
+.secTwo {
+  border-bottom: 1px solid #e5e5e5;
+  height: 75px;
+  margin-left: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* stuapstone */
+.table {
+  background-color: #fff;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  border-radius: 0.3125rem;
+  box-shadow: 0 2px 3px 0 hsla(0, 0%, 61.2%, 0.16);
+  -webkit-border-radius: 0.3125rem;
+}
+.codeSubmission {
+  font-size: 1rem;
+  padding: 12px 16px;
+  border: 1px solid #7e8e9f;
+  border-radius: 8px;
+  width: 100%;
+}
+.reqbuttoncreate {
+  height: 48px;
+  background: #4b0dba;
+  border: 1px solid var(--primary-color-button-links);
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+.btn {
+    color: #fff!important;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black !important;;
+}
+
+/* home */
+
+
+
+.banner {
+  height: 60px;
+  padding-left: 10px;
+  margin-left: -12px;
+  border-radius: 10px;
+  background-color: #4b0dba;
+  color: aliceblue;
+  font-size: 17px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.sessionsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  -webkit-column-gap: 10px;
+  column-gap: 34px;
+  grid-row-gap: 10px;
+  row-gap: 16px;
+  justify-items: center;
+  padding: 10px 20px;
+}
+.sessionsContainer .roadmap_icon_container {
+  border: 2px solid #4b0dba;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.roadmap-area {
+  width: 340px;
+}
+.roadmap-area,
+.session-container {
+  background: #fff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: -webkit-max-content;
+  height: max-content;
+  box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+  margin-bottom: 10px;
+}
+.RICompleted {
+  background-color: #4b0dba;
+  color: #fff;
+}
+.sessionsContainer h6 {
+  display: grid;
+  place-items: center;
+  height: inherit;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.step-path-left,
+.step-path-right {
+  width: 28px;
+  border: 2px solid #93a4b7;
+  border-radius: 10px;
+  position: relative;
+  bottom: 32px;
+}
+.step-path-bottom {
+  width: 12px;
+  border: 2px solid #93a4b7;
+  border-radius: 10px;
+  position: relative;
+  left: 11.5px;
+  bottom: 4px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.step-path-left {
+  right: 34px;
+}
+.step-path-right {
+  left: 37px;
+}
+.progress-head {
+  width: 100%;
+  height: 49px;
+  left: 884px;
+  top: 96px;
+  background: #f7f5fc;
+  border-radius: 8px 8px 0 0;
+  margin: auto;
+  padding: 10px;
+}
+.progress-header {
+  font-weight: 500;
+  margin: 8px 4px;
+  font-size: 1.2rem;
+}
+.addSessionContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 12px;
+  grid-gap: 12px;
+  gap: 12px;
+  background-color: #f7f7f8;
+  max-height: 500px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+.addSession {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.roadmap-update {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+.feedback {
+  color: red;
+}
+.table {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+.contents-update {
+  margin-left: -12px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+.preread,
+.preread-head {
+  left: 116px;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
+}
+.preread {
+  white-space: pre-wrap;
+}
+.preread-head {
+  font-weight: 600;
+}
+.dyna {
+  padding-left: 85px;
+}
+.login-input {
+  margin-top: 200px;
+  border: 1px solid #4b0dba;
+  height: 300px;
+  padding-top: 30px;
+  border-radius: 15px;
+}
+.btn-color {
+  background-color: #4b0dba;
+  color: #e5e5e5;
+}
+.icon2 {
+  border: 4px solid black;
+  height: 120px;
+  width: 120px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 20px;
+}
+.btn-color:hover {
+  background-color: #826bdf;
+}
+.map2 {
+  margin-left: 50px;
+}
+
+/* login */
+
+.zen-logo {
+  height: 200px !important;
+  width: 200px !important;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  vertical-align: middle;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  height: auto;
+}
+.login-input {
+  height: 300px;
+  padding-top: 30px;
+  
+}
+.label-style {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7e8e9f;
+}
+.form-label {
+  display: flex;
+  justify-content: start;
+}
+.login-btn {
+  color: #fff;
+  background-color: #4b0dba;
+}
+.img-class {
+  max-width: 500px;
+  height: 100vh;
+}
