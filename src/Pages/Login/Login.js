@@ -100,7 +100,6 @@ export default function Login() {
                   <div>
                     <Link to="/">If you don't have an account? Signin!</Link>
                   </div>
-
                   <hr></hr>
                 </form>
               </div>
