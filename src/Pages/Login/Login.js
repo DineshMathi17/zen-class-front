@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from "axios";
 import { useFormik } from "formik";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { API } from "../../global";
 import { toast } from "react-toastify";
 
@@ -96,7 +96,12 @@ export default function Login() {
                   >
                     Login
                   </button>
-                  
+                  <hr></hr>
+                  <div>
+                    <Link to="/">If you don't have an account? Signin!</Link>
+                  </div>
+
+                  <hr></hr>
                 </form>
               </div>
             </div>
