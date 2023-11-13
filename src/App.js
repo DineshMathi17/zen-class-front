@@ -8,8 +8,9 @@ import Capstone from "./Pages/Capstone/Capstone";
 import Batches from "./Pages/Batches/Bactches";
 import Event from "./Pages/EventManage/Events";
 import Home from "./Pages/Home/Home";
+
+
 function App() {
-  
 
   return (
     <div className="App mx-5">
