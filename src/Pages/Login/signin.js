@@ -5,7 +5,6 @@ import { useFormik } from "formik";
 import { API } from "../../global";
 import { toast } from "react-toastify";
 
-
 export default function Signup() {
   let navi = useNavigate();
   let formik = useFormik({
@@ -36,7 +35,6 @@ export default function Signup() {
       }
     },
   });
-
 
   return (
     <div className="container-fluid mr-0 pr-0 body">
