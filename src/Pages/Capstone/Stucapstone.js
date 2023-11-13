@@ -34,7 +34,7 @@ function Stucapstone() {
       fedc: "",
       bedc: ""
     },
-    onSubmit: async (values, { resetForm }) => {
+    onSubmit: async (values) => {
       try {
         let studentEntry = await axios.post(`${API}/users/postLink/${param.userId}`, values, {
           headers: {
